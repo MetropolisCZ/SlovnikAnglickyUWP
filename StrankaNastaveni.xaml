@@ -1,0 +1,102 @@
+﻿<Page
+	x:Class="SlovnikAnglickyUWP.StrankaNastaveni"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="using:SlovnikAnglickyUWP"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<ScrollViewer>
+        <StackPanel Padding="20">
+            <TextBlock Text="Nastavení" FontSize="50" />
+            <TextBlock Text="O aplikaci" FontSize="23" Margin="0,15,0,15" />
+            <TextBlock TextWrapping="Wrap" Text="Tato aplikace byla založena na datech ze http://slovnik.zcu.cz. Licence dat je GNU FDL (http://www.gnu.org/licenses/fdl.txt)" />
+            <TextBlock TextWrapping="Wrap" Text="Vývoj aplikace: Firma Metropolis (metropolis.xf.cz), všechna práva na kód vyhrazena."></TextBlock>
+            <HyperlinkButton Content="Web firmy Metropolis" NavigateUri="http://www.metropolis.xf.cz" />
+
+
+
+            <TextBlock TextWrapping="Wrap" Text="Vysvětlivky zkratek v poznámce" FontSize="23" Margin="0,50,0,0" />
+            <TextBlock TextWrapping="Wrap" xml:space="preserve">
+"n:" podstatná jména
+"v:" slovesa
+"adj:" přídavná jména
+"adv:" příslovce
+"prep:" předložky
+"conj:" spojky
+"interj:" citoslovce
+"num:" číslovky
+            </TextBlock>
+            <TextBlock xml:space="preserve" TextWrapping="Wrap">
+"[astr.]" - astronomie
+"[aut.]" - automobilový průmysl
+"[bás.]" - básnicky
+"[bio.]" - biologie
+"[bot.]" - výraz z oblasti botaniky
+"[cukr.]" - cukrovarnictví
+"[dět.]" - dětský výraz, dětsky
+"[dřev.]" - těžba dřeva, dřevozpracující průmysl
+"[eko.]" - ekologie
+"[el.]" - elektrotechnika
+"[fin.]" - finance
+"[fráz.]" - zkratka označující frázi
+"[frsl.]" - frázové sloveso (např. give up)
+"[fyz.]" - fyzika
+"[geol.]" - geologie
+"[geod.]" - geodézie
+"[horn.]" - hornictví, mineralogie
+"[hovor.]" - hovorově
+"[hist.]" - historický výraz, historický název
+"[hud.]" - hudební terminologie
+"[hut.]" - hutnictví
+"[chem.]" - chemie
+"[id.]" - idiom (např. a bun in the oven)
+"[it.]" - informační technologie
+"[jad.]" - jaderná fyzika, technologie
+"[jmén.]" - vlastní jméno
+"[ker.]" - keramický průmysl
+"[kož.]" - kožedělný průmysl
+"[kniž.]" - knižně
+"[lak.]" - nátěrová technologie, hmoty
+"[let.]" - letectví
+"[lingv.]" - lingvistické
+"[lod.]" - lodě, lodní doprava
+"[mat.]" - matematika
+"[med.]" - medicína
+"[meteo.]" - meteorologie
+"[myt.]" - mytologie
+"[náb.]" - výraz z oblasti náboženství
+"[neobv.]" - neobvyklé
+"[neprav.]" - nepravidelné sloveso
+"[obec.]" - obecné - taktéž lze vynechat
+"[opt.]" - optika
+"[polit.]" - politický výraz či obrat
+"[potr.]" - potravinářský průmysl
+"[práv.]" - práva
+"[přen.]" - přeneseně
+"[psych.]" - psychologický
+"[sex.]" - sexuální výraz
+"[slang.]" - slangový výraz
+"[sport.]" - výraz z oblasti sportu
+"[stav.]" - stavebnictví, architektura
+"[tech.]" - technický obor
+"[text.]" - textilní průmysl
+"[voj.]" - vojenská terminologie
+"[vulg.]" - vulgárně
+"[zast.]" - zastarale
+"[zem.]" - zeměpisný výraz
+"[zeměděl.]" - zemědělský výraz
+"[zkr.]" - zkratka
+"[zoo.]" - zoologie
+"[žel.]" - železniční doprava
+"[žert.]" - žertovně, žertovné
+"[amer.]" - americky
+"[aus.]" - australsky
+"[brit.]" - britsky
+"[skot.]" - skotsky
+            </TextBlock>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
