@@ -145,5 +145,10 @@ namespace SlovnikAnglickyUWP
         {
             SlovnikVyhledavaciPole.Focus(FocusState.Programmatic);
         }
+
+        private void SlovnikVyhledavaciPole_GotFocus(object sender, RoutedEventArgs e)
+        {
+            SlovnikVyhledavaciPole.SelectAll();
+        }
     }
 }
