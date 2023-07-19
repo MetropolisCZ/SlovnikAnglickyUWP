@@ -12,9 +12,12 @@
 
     <Page.TopAppBar>
         <CommandBar>
-            <AppBarButton x:Name="tlacitkoSlovnikZakladniCZEN" HorizontalAlignment="Left" Icon="Bookmarks" Label="Slovník CS-AN" VerticalAlignment="Top" Click="tlacitkoSlovnikZakladniCZEN_Click"/>
-            <AppBarButton x:Name="tlacitkoSlovnikZakladniENCZ" HorizontalAlignment="Left" Icon="Bookmarks" Label="Slovník AN–CS" VerticalAlignment="Top" Click="tlacitkoSlovnikZakladni_Click"/>
-            <AppBarButton x:Name="tlacitkoNastaveni" HorizontalAlignment="Left" Icon="Setting" Label="Nastavení" VerticalAlignment="Top" Click="TlacitkoNastaveni_Click"/>
+            <AppBarButton x:Name="tlacitkoSlovnikZakladniCZEN" HorizontalAlignment="Left" Icon="Bookmarks" Label="CS-AN" VerticalAlignment="Top" Click="tlacitkoSlovnikZakladniCZEN_Click"/>
+            <AppBarButton x:Name="tlacitkoSlovnikZakladniENCZ" HorizontalAlignment="Left" Icon="Bookmarks" Label="AN–CS" VerticalAlignment="Top" Click="tlacitkoSlovnikZakladni_Click"/>
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="tlacitkoNastaveni" HorizontalAlignment="Left" Icon="Setting" Label="Nastavení" VerticalAlignment="Top" Click="TlacitkoNastaveni_Click"/>
+            </CommandBar.SecondaryCommands>
 
             <CommandBar.Content>
                 <TextBlock x:Name="NadpisStrankyTextBlock" Margin="12,8"/>
