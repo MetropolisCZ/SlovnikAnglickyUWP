@@ -64,11 +64,11 @@ namespace SlovnikAnglickyUWP
 
             if (TypSlovnikuAJCZ)
             {
-                SlovnikSerazeny = Slovnik.ZiskatSlovnik();
+                SlovnikSerazeny = MainPage.SlovnikAJCZ;
             }
             else
             {
-                SlovnikSerazeny = Slovnik.ZiskatSlovnik(false);
+                SlovnikSerazeny = MainPage.SlovnikCZAJ;
             }
             //SlovnikSerazeny = Slovnik.ZiskatSlovnik();
             //SlovnikCZAJ = Slovnik.ZiskatSlovnik(false);

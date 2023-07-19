@@ -8,10 +8,12 @@ namespace SlovnikAnglickyUWP
 {
 	public sealed partial class MainPage : Page
 	{
+		public static readonly List<Slovo> SlovnikAJCZ = Slovnik.ZiskatSlovnik();
+        public static readonly List<Slovo> SlovnikCZAJ = Slovnik.ZiskatSlovnik(false);
 
-		public MainPage()
+        public MainPage()
 		{
-			this.InitializeComponent();
+            this.InitializeComponent();
 
             SlovnikZakladni.TypSlovnikuAJCZ = true;
             NadpisStrankyTextBlock.Text = "Slovník Anglicko-Český";
