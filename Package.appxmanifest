@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="SlovnikAnglickyUWP.App">
       <uap:VisualElements
-        DisplayName="Metropolis Anglický slovník"
+        DisplayName="Metropolis anglicko–český slovník"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="Slovník anglického jazyka. Založeno na datech ze http://slovnik.zcu.cz."
