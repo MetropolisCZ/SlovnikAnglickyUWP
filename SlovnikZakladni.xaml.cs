@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Windows.UI;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
@@ -129,6 +130,20 @@ namespace SlovnikAnglickyUWP
             {
                 SlovnikVyhledavaciPole.ClearValue(BorderBrushProperty);
             }
+        }
+
+        /*protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            SlovnikVyhledavaciPole.Focus(FocusState.Programmatic);
+            for (int i = 0; SlovnikVyhledavaciPole.FocusState == FocusState.Unfocused && i < 10; i++)
+            {
+                SlovnikVyhledavaciPole.Focus(FocusState.Programmatic);
+            }
+        }*/
+
+        private void SlovnikVyhledavaciPole_Loaded(object sender, RoutedEventArgs e)
+        {
+            SlovnikVyhledavaciPole.Focus(FocusState.Programmatic);
         }
     }
 }

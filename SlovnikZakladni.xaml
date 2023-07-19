@@ -36,7 +36,7 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <TextBox Grid.Row="1" VerticalAlignment="Stretch" PlaceholderText="Vyhledat slovo" Opacity="1" Height="Auto" TextAlignment="Start" VerticalContentAlignment="Center" x:Name="SlovnikVyhledavaciPole" TextChanged="SlovnikVyhledavaciPole_TextChanged" />
+        <TextBox Grid.Row="1" VerticalAlignment="Stretch" PlaceholderText="Vyhledat slovo" Opacity="1" Height="Auto" TextAlignment="Start" VerticalContentAlignment="Center" x:Name="SlovnikVyhledavaciPole" TextChanged="SlovnikVyhledavaciPole_TextChanged" Loaded="SlovnikVyhledavaciPole_Loaded" />
 
     </Grid>
 
