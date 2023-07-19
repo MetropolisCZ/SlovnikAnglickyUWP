@@ -97,7 +97,15 @@ namespace SlovnikAnglickyUWP
             //var nalezeneSlovo = SlovnikAJ.Any(x => x.CeskyPreklad.Contains(SlovnikVyhledavaciPole.Text));
             //var nalezeneSlovo = SlovnikAJ.Where(x => x.CeskyPreklad.Contains(SlovnikVyhledavaciPole.Text));
             //var nalezeneSlovo = SlovnikAJ.Find(x => x.CeskyPreklad.Contains(SlovnikVyhledavaciPole.Text));
-            var nalezeneSlovo = SlovnikSerazeny.Find(x => x.CeskyPreklad.StartsWith(SlovnikVyhledavaciPole.Text));
+            var nalezeneSlovo = new Slovo();
+            if (TypSlovnikuAJCZ)
+            {
+                nalezeneSlovo = SlovnikSerazeny.Find(x => x.AnglickeSlovo.StartsWith(SlovnikVyhledavaciPole.Text));
+            }
+            else
+            {
+                nalezeneSlovo = SlovnikSerazeny.Find(x => x.CeskyPreklad.StartsWith(SlovnikVyhledavaciPole.Text));
+            }
 
             if (nalezeneSlovo != null)
             {
