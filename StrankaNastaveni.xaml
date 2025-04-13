@@ -10,11 +10,14 @@
 
 	<ScrollViewer>
         <StackPanel Padding="20">
-            <TextBlock Text="Nastavení" FontSize="50" />
+            <!--<TextBlock Text="Nastavení" FontSize="50" />-->
             <TextBlock Text="O aplikaci" FontSize="23" Margin="0,15,0,15" />
             <TextBlock TextWrapping="Wrap" Text="Tato aplikace byla založena na datech ze http://slovnik.zcu.cz. Licence dat je GNU FDL (http://www.gnu.org/licenses/fdl.txt)" />
-            <TextBlock TextWrapping="Wrap" Text="Vývoj aplikace: Firma Metropolis (metropolis.xf.cz), všechna práva na kód vyhrazena."></TextBlock>
-            <HyperlinkButton Content="Web firmy Metropolis" NavigateUri="http://www.metropolis.xf.cz" />
+            <TextBlock TextWrapping="Wrap" Text="Firma Metropolis 2025, všechna práva na kód vyhrazena"></TextBlock>
+            <HyperlinkButton Content="Web firmy Metropolis" NavigateUri="http://www.metropolis.xf.cz/webdesign/index.php?zdrojZobrazeni=MetropolisSlovnikAnglicky" />
+
+
+            <TextBlock TextWrapping="Wrap" Margin="0,7,0,0" Text="Verze aplikace: 1.0.0" />
 
 
 

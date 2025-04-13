@@ -9,7 +9,7 @@
   <Identity
     Name="FirmaMetropolis.Metropolisanglickoeskslovnk"
     Publisher="CN=D21B3810-6776-4010-B3FB-7D9EB339B1A5"
-    Version="0.1.0.0" />
+    Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="58d97877-80da-42df-bacf-4cd109ab59b0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
